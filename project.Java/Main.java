@@ -17,7 +17,7 @@ public class Main { // Déclaration de la classe principale
             motDePasse = scanner.nextLine(); // Lecture du mot de passe saisi par l'utilisateur
 
             // Vérification des identifiants
-            if (identifiant.equals("Divine") && motDePasse.equals("Divine45")) { // Si les identifiants sont corrects
+            if (identifiant.equals("admin") && motDePasse.equals("admin")) { // Si les identifiants sont corrects
                 afficherMenu(scanner); // Appel de la méthode pour afficher le menu
             } else { // Sinon
                 System.out.println("Veuillez entrer un identifiant valide !"); // Message d'erreur
